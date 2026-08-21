@@ -1,0 +1,20 @@
+# 数据集及其链接
+cats_and_dogs/
+data_pointer_backup/
+data_ready/
+dataset/
+
+# 编辑器产生的备份文件
+*.save
+*.save.*
+
+# Python运行产生的缓存
+__pycache__/
+*.pyc
+
+# 以后训练产生的模型和日志
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
