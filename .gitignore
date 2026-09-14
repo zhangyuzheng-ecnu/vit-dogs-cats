@@ -3,6 +3,16 @@ cats_and_dogs/
 data_pointer_backup/
 data_ready/
 dataset/
+data/
+datasets/
+
+# 本地数据集压缩包
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
 
 # 编辑器产生的备份文件
 *.save
@@ -11,6 +21,11 @@ dataset/
 # Python运行产生的缓存
 __pycache__/
 *.pyc
+
+# 本地 Python 虚拟环境
+.venv/
+venv/
+env/
 
 # 以后训练产生的模型和日志
 *.pt
